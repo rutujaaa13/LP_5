@@ -1,0 +1,20 @@
+sudo journalctl -k | grep usb
+To see the log book isme tere pendrive dekhega kitne baje connect Kiya nd all
+
+
+
+sudo journalctl --rotate
+
+sudo journalctl --vacuum-time=1s
+
+Use this 2 commands entry aur book dono empty honge
+
+
+
+sudo journalctl -k | grep usb
+
+Vapis use this to cross check
+
+
+history -c
+And most important yeh use karna previous terminal clear ho jayega konse command daale pehle yahi pta nahi chalega

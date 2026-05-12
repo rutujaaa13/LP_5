@@ -1,0 +1,11 @@
+To execute OpenMP code:
+
+1. g++ -fopenmp matrix_mul_openmp.cpp -o matrix_mul_openmp
+2. ./matrix_mul_openmp 
+
+
+To execute CUDA code: 
+
+1. nvcc matrix_mul.cu -o matrix_mul
+2. ./matrix_mul
+
